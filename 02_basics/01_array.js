@@ -11,8 +11,8 @@
 // newarr.pop() // remove last value in the array
 // console.log(newarr);
 
-// arr.unshift(7)  Add first value
-// arr.shift();
+// arr.unshift(7)  remove 
+// arr.shift();Add first value
 
 // console.log(arr.includes(9));
 // console.log(arr.indexOf(9));
@@ -48,3 +48,6 @@ console.log(myr1);
 const myr2 = arr.splice(1,3)
 console.log(myr2);
 console.log("c", arr);
+
+
+
