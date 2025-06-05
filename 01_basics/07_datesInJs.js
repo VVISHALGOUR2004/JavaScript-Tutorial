@@ -31,3 +31,24 @@ let mycreatedDate = new Date("01-14-2024")
 // console.log(newDate.getDay());
 // console.log(newDate.getHours());
 
+
+// let now = new Date();
+// console.log(now); // Full date and time   the  time is not redable 
+
+
+
+let now = new Date();
+
+// 📅 Date
+let date = now.getDate();        // Day (1-31)
+let month = now.getMonth() + 1;  // Month (0-11) => add 1
+let year = now.getFullYear();    // Year
+
+// ⏰ Time
+let hours = now.getHours();      // 0-23
+let minutes = now.getMinutes();  // 0-59
+let seconds = now.getSeconds();  // 0-59
+
+console.log(`Date: ${date}/${month}/${year}`);
+console.log(`Time: ${hours}:${minutes}:${seconds}`);
+
